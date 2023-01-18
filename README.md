@@ -36,8 +36,9 @@ Be deployed online
 We started by searching together for a free, suitable API on the internet and agreed on using TheCocktailDB.com which provides endpoints with quite simple, straightforward data such as cocktail images, descriptions and unique identifiers. This kind of data seemed practical given the short timeframe and the requirements of the project. However, the main drawback of this API is that they don’t provide an endpoint with a list of all the cocktails. They are instead categorised (either by name, identifier, main ingredients etc). For an average user it would sound more practical to have a visual overview of a variety of cocktails on one page, so we planned to find a way to achieve that. We drew our wireframe using Excalidraw (see sketches below).
 
 The main elements of our application are:
-A header with a navigation bar common to our web pages
+- A header with a navigation bar common to our web pages
 A home page with a link to a random cocktail page:
+![image](https://user-images.githubusercontent.com/113553373/213205929-84761cd8-7a40-4cf5-97fc-6d15d5d89ab7.png)
 
 
 
