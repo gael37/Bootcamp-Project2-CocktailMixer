@@ -72,7 +72,7 @@ I worked on the random cocktail page following these steps:
 ![image](https://user-images.githubusercontent.com/113553373/213498906-df1fc8d6-404b-4a82-8650-09092059f372.png)
 
 -My functional component returns a card (with a title, an image and some text). The key ‘drinks’ contains all the descriptive information, stored as an array of items) so I used a map array method through drink.drinks and destructured the keys that I needed:
-![image](https://user-images.githubusercontent.com/113553373/213499015-5129d64f-5410-4818-83fb-f8f70b0ff910.png)
+![image](https://user-images.githubusercontent.com/113553373/213500050-81ef7599-5349-4e53-957f-fd5bc25ebcb4.png)
 
 -I added a Link button generating another random drink.
 To do so, I attached an event listener (click) to this button, triggering a callback function which simply makes a new get request to the same endpoint and sets the data to the drink object state.:
