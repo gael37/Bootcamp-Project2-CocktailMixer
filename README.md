@@ -9,6 +9,7 @@ https://gael-duchesne-cocktail-mixer.netlify.app/
 # Timeframe & Working Team
 
 The timeframe for the completion of the project was two days. We worked in a pair group. Below is the link to my partner’s GitHub repository.
+
 https://github.com/sfladager/Cocktail-mixer
 
 # Technologies Used
