@@ -85,6 +85,7 @@ Once our parts were finished, I added my components to his version and we both w
 # Challenges
 
 1- Using React: for me, the main challenge of this project was the contrast between the timeframe (two days) and my short experience with this programming tool. We had only attended a few lessons on React, so it was already a difficult thing to get the routine going on (downloading the proper packages like axios, react router, bootstrap, write all of the functional components, linking then with the right routes in App.js, setting states and using useEffect etc). So the coding part in itself took me a substantial amount of time, even for tasks that I considered to be within my skill range. I overcame this challenge by pushing myself and drawing deadlines for my own parts on which I had to work on.
+
 2- Working with a partner: I’m not used to working within a team. Keeping track of my partner’s work/pace/own challenges was new to me. I overcame this challenge by communicating with Shwan all along the project and I organised my work according to Shawn’s own progression/pace and coding issues so that we could help each other out whenever we faced a hindrance, for more efficient use of our short timeframe.
 
 # Wins
