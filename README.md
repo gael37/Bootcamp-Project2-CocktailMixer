@@ -4,7 +4,7 @@ Week 5 of the General Assembly Software Engineering Immersive course was dedicat
 
 # Deployment link
 
-https://cocktails37.netlify.app
+https://gael-duchesne-cocktail-mixer.netlify.app/
 
 # Timeframe & Working Team
 
