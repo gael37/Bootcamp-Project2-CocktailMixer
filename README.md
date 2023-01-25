@@ -65,7 +65,7 @@ I started working on the navigation bar and the error components. I used the rea
 
 I worked on the random cocktail page following these steps:
 
-– I used a useEffect function that retrieves the data from the API endpoint and stores it in the state. That useEffect function has a dependency of an empty array as second argument, so it runs as the page loads:
+- I used a useEffect function that retrieves the data from the API endpoint and stores it in the state. That useEffect function has a dependency of an empty array as second argument, so it runs as the page loads:
 ![image](https://user-images.githubusercontent.com/113553373/213498868-e8450a39-de1f-4888-85e4-a2517953693c.png)
 
 - The endpoint directly provides a random cocktail data as an object containing an array. So I initialised the object drink to null:
