@@ -14,21 +14,21 @@ https://github.com/sfladager/Cocktail-mixer
 
 # Technologies Used
 
-HTML
-JavaScript
-React
-Sass
-Bootstrap
-Axios
-Excalidraw
+- HTML
+- JavaScript
+- React
+- Sass
+- Bootstrap
+- Axios
+- Excalidraw
 
 # Brief
 
-Consume a public API
-Have several components
-Have a router
-Include wireframes
-Be deployed online
+- Consume a public API
+- Have several components
+- Have a router
+- Include wireframes
+- Be deployed online
 
 
 # Planning
@@ -37,21 +37,21 @@ We started by searching together for a free, suitable API on the internet and ag
 
 The main elements of our application are:
 - A header with a navigation bar common to our web pages
-A home page with a link to a random cocktail page:
+- A home page with a link to a random cocktail page:
 ![image](https://user-images.githubusercontent.com/113553373/213205929-84761cd8-7a40-4cf5-97fc-6d15d5d89ab7.png)
 
 
 
-A page with a list of cocktails, a burger menu and a search bar to narrow down the user selection:
+- A page with a list of cocktails, a burger menu and a search bar to narrow down the user selection:
 ![image](https://user-images.githubusercontent.com/113553373/213498549-a2439be9-39d3-480a-bc1f-9e2dee29ec8b.png)
 
 
-An error page for wrong routing
+- An error page for wrong routing
 One page with only one cocktail displayed at a time with an attached description of the drink:
 ![image](https://user-images.githubusercontent.com/113553373/213498634-8b5bfc33-6151-457d-8209-cdc520c081e0.png)
 
 
-One last page with one single random cocktail using the same design.
+- One last page with one single random cocktail using the same design.
 
 We typed some pseudocode together, presented our plan to the instructional team, and got signed-off. We split our tasks in the following way: Shawn suggested to be in charge of coding/styling the cocktail list and the single-cocktail components parts which by the way sounded perhaps a bit more difficult than the rest, so I suggested that I should be in charge of all the other parts of the project (home page, navigation bar, error page, random cocktail page) to balance things out, and we agreed on that.
 Shawn created the GitHub repository, and I added my components to his version afterwards.
@@ -65,16 +65,16 @@ I started working on the navigation bar and the error components. I used the rea
 
 I worked on the random cocktail page following these steps:
 
-–I used a useEffect function that retrieves the data from the API endpoint and stores it in the state. That useEffect function has a dependency of an empty array as second argument, so it runs as the page loads:
+– I used a useEffect function that retrieves the data from the API endpoint and stores it in the state. That useEffect function has a dependency of an empty array as second argument, so it runs as the page loads:
 ![image](https://user-images.githubusercontent.com/113553373/213498868-e8450a39-de1f-4888-85e4-a2517953693c.png)
 
--The endpoint directly provides a random cocktail data as an object containing an array. So I initialised the object drink to null:
+- The endpoint directly provides a random cocktail data as an object containing an array. So I initialised the object drink to null:
 ![image](https://user-images.githubusercontent.com/113553373/213498906-df1fc8d6-404b-4a82-8650-09092059f372.png)
 
--My functional component returns a card (with a title, an image and some text). The key ‘drinks’ contains all the descriptive information, stored as an array of items) so I used a map array method through drink.drinks and destructured the keys that I needed:
+- My functional component returns a card (with a title, an image and some text). The key ‘drinks’ contains all the descriptive information, stored as an array of items) so I used a map array method through drink.drinks and destructured the keys that I needed:
 ![image](https://user-images.githubusercontent.com/113553373/213500050-81ef7599-5349-4e53-957f-fd5bc25ebcb4.png)
 
--I added a Link button generating another random drink.
+- I added a Link button generating another random drink.
 To do so, I attached an event listener (click) to this button, triggering a callback function which simply makes a new get request to the same endpoint and sets the data to the drink object state.:
 ![image](https://user-images.githubusercontent.com/113553373/213499076-db9cc2c2-ccde-4646-a7fd-d9e839a38fb0.png)
 ![image](https://user-images.githubusercontent.com/113553373/213499161-13313401-3c33-4b02-9b66-f6221ab44f19.png)
